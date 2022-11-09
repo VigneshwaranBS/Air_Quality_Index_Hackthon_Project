@@ -54,15 +54,10 @@
         </form>
       </div>
       <div class="card-img">
-        <lottie-player
-          src="https://assets5.lottiefiles.com/packages/lf20_dn6rwtwl.json"
-          loop
-          background="transparent"
-          speed="1"
-          style="width: 200px; height: 200px"
-          autoplay
-        ></lottie-player>
-      </div>
+
+        <lottie-player src="https://assets9.lottiefiles.com/temp/lf20_CTrShd.json"  background="transparent"  speed="1"  
+style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
+              </div>
     </v-card>
   </div>
 </template>
@@ -150,8 +145,8 @@ export default {
   border-radius: 18px;
   background: -webkit-linear-gradient(
     45deg,
-    rgb(255, 116, 116),
-    rgb(221, 68, 221)
+    rgb(169, 234, 248),
+    rgb(40, 121, 153)
   );
   width: 50%;
   height: 80vh;
