@@ -118,6 +118,11 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #registerCard {
@@ -148,11 +153,14 @@ export default {
 
 .card-img {
   border-radius: 18px;
-  background: -webkit-linear-gradient(
-    45deg,
-    rgb(255, 116, 116),
-    rgb(221, 68, 221)
-  );
+  background: hsla(196, 93%, 71%, 1);
+
+background: linear-gradient(90deg, hsla(196, 93%, 71%, 1) 0%, hsla(199, 58%, 80%, 1) 49%, hsla(183, 71%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(196, 93%, 71%, 1) 0%, hsla(199, 58%, 80%, 1) 49%, hsla(183, 71%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(196, 93%, 71%, 1) 0%, hsla(199, 58%, 80%, 1) 49%, hsla(183, 71%, 88%, 1) 100%);
+
   width: 50%;
   height: 80vh;
   display: flex;

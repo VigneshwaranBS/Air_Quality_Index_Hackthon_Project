@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <!-- <v-app-bar
+    <v-app-bar
     color="deep-purple lighten-5"
       elevate-on-scroll
     >
@@ -13,7 +13,7 @@
           Log Out
           <v-icon right > mdi-logout-variant </v-icon>
         </v-btn>
-    </v-app-bar> -->
+    </v-app-bar>
     <v-main>
       <router-view />
     </v-main>

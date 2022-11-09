@@ -1,13 +1,3 @@
 <template>
-  <main>dashboard</main>
+  <main>ffsdss</main>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>
